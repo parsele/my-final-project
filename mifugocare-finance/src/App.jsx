@@ -73,12 +73,7 @@ function App() {
         {/* Footer */}
         <footer className="bg-white border-t mt-12 py-6 text-center text-gray-600 text-sm">
           <div className="space-y-1">
-            <div>
-              <span className="font-semibold">Call:</span> <a href="tel:+254768828646" className="text-green-700 underline">+254768828646</a> |
-              <span className="font-semibold ml-2">WhatsApp:</span> <a href="https://wa.me/254768828646" target="_blank" rel="noopener noreferrer" className="text-green-700 underline">+254768828646</a> |
-              <span className="font-semibold ml-2">Email:</span> <a href="mailto:leyianmoses126@gmail.com" className="text-green-700 underline">leyianmoses126@gmail.com</a>
-            </div>
-            <div>© 2024 MifugoCare Finance. All rights reserved.</div>
+            <div>© 2025 MifugoCare Finance. All rights reserved.</div>
           </div>
         </footer>
       </div>

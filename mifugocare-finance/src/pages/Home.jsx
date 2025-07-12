@@ -61,10 +61,19 @@ export default function Home() {
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-green-700 mb-4">Contact Us</h2>
           <p className="text-gray-700 mb-2">For inquiries, support, or partnership opportunities, reach out to us:</p>
-          <div className="mt-4 space-y-2">
-            <p className="font-semibold">Call: <a href="tel:+254768828646" className="text-green-700 underline">+254768828646</a></p>
-            <p className="font-semibold">WhatsApp: <a href="https://wa.me/254768828646" target="_blank" rel="noopener noreferrer" className="text-green-700 underline">+254768828646</a></p>
-            <p className="font-semibold">Email: <a href="mailto:leyianmoses126@gmail.com" className="text-green-700 underline">leyianmoses126@gmail.com</a></p>
+          <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-6 text-lg">
+            <div className="flex items-center gap-2">
+              <span role="img" aria-label="Phone" className="text-green-700 text-2xl">📞</span>
+              <a href="tel:+254768828646" className="text-green-700 underline font-semibold">+254768828646</a>
+            </div>
+            <div className="flex items-center gap-2">
+              <span role="img" aria-label="WhatsApp" className="text-green-700 text-2xl">💬</span>
+              <a href="https://wa.me/254768828646" target="_blank" rel="noopener noreferrer" className="text-green-700 underline font-semibold">+254768828646</a>
+            </div>
+            <div className="flex items-center gap-2">
+              <span role="img" aria-label="Email" className="text-green-700 text-2xl">✉️</span>
+              <a href="mailto:leyianmoses126@gmail.com" className="text-green-700 underline font-semibold">leyianmoses126@gmail.com</a>
+            </div>
           </div>
         </div>
       </section>
